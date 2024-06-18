@@ -8,7 +8,7 @@ This repository contains the code and data for a mini-project on facial expressi
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
     |1| Vo Thi Khanh Linh | 21280070 |
-    |2|||
+    |2| Le Quang Trung | 21280113 |
     |3|||
     |4|||
 
