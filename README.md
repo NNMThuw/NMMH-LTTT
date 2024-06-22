@@ -49,3 +49,11 @@ Apart from the given questions, our group has made the following improvements:
 
 1. Feature Engineering: We utilized the Histogram of Oriented Gradients (HOG) algorithm to extract features from images. HOG is effective in representing the main contours of the face by capturing the direction and magnitude of gradients through vectors in each cell.
 2. Handling Classification with Imbalanced Datasets: One effective technique for addressing class imbalance is the strategic use of class weights. Class weights assign higher weights to the minority class, allowing the model to pay more attention to its patterns and reducing bias towards the majority class.
+
+## 📦 Compare Models:
+
+## 📑 Futureworks: 
+
+1. Transfer Learning: use VGG16, VGG19, or MobileNet as the base model for our classification tasks. These pre-trained models provide a strong foundation by leveraging their ability to extract robust features from images, enhancing the overall performance of our classifier.
+2. CNN: train a full Convolutional Neural Network (CNN) for classification, as CNNs have the capability to automatically extract features from images, making them well-suited for tasks of this nature.
+3. Data Augmentation: Data augmentation involves creating new training samples by applying various transformations to existing images, thereby increasing the diversity of the dataset and mitigating the effects of class imbalance.
