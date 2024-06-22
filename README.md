@@ -42,3 +42,10 @@ This project is designed to be completed in the following steps:
 
 
 Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
+
+## 📑 Improvemnts: 
+
+Apart from the given questions, our group has made the following improvements:
+
+1. Feature Engineering: We utilized the Histogram of Oriented Gradients (HOG) algorithm to extract features from images. HOG is effective in representing the main contours of the face by capturing the direction and magnitude of gradients through vectors in each cell.
+2. Handling Classification with Imbalanced Datasets: One effective technique for addressing class imbalance is the strategic use of class weights. Class weights assign higher weights to the minority class, allowing the model to pay more attention to its patterns and reducing bias towards the majority class.
