@@ -52,11 +52,18 @@ Apart from the given questions, our group has made the following improvements:
 
 ## 📦 Observations about different models and feature engineering techniques:
 
-Model Performance on Different Data Representations:
-1. Original Data and PCA Transformed Data: Random Forest emerged as the best performing model for both the original dataset and the PCA-transformed dataset. Its ensemble nature, which aggregates the predictions of multiple decision trees, contributed to its robust performance by effectively capturing the underlying patterns in these datasets.
-2. HOG Features: Support Vector Classifier (SVC) outperformed other models when HOG features were used. The SVC's ability to handle high-dimensional data and complex decision boundaries through kernel functions allowed it to leverage the detailed and informative features extracted by the HOG algorithm, leading to superior classification results.
+1. Model Performance on Different Data Representations:
+- Original Data and PCA Transformed Data: Random Forest emerged as the best performing model for both the original dataset and the PCA-transformed dataset. Its ensemble nature, which aggregates the predictions of multiple decision trees, contributed to its robust performance by effectively capturing the underlying patterns in these datasets.
+- HOG Features: Support Vector Classifier (SVC) outperformed other models when HOG features were used. The SVC's ability to handle high-dimensional data and complex decision boundaries through kernel functions allowed it to leverage the detailed and informative features extracted by the HOG algorithm, leading to superior classification results.
 
 These observations underscore the importance of choosing the right model based on the specific characteristics of the feature representation. While Random Forest excelled with the original and PCA-transformed data, the SVC demonstrated its strength with the more sophisticated HOG features.
+
+2. Impact of HOG Features on Model Performance:
+- Improvement in Performance: The application of HOG (Histogram of Oriented Gradients) features led to performance improvements for most models. HOG effectively captures essential details such as edges and gradients, providing richer and more informative feature representations.
+This improvement was observed across models, including Logistic Regression, SVM, and MLP, which all benefited from the enhanced feature set.
+- Exception with Random Forest: Despite the overall trend, Random Forest achieved its highest performance with the original data, rather than with HOG features. This suggests that Random Forest might have effectively leveraged the raw features in the original dataset, whereas the transformations introduced by HOG did not provide the same level of enhancement for this specific model.
+  
+These observations highlight the value of advanced feature engineering techniques like HOG in boosting the performance of various models, although the extent of improvement can vary depending on the model used.
 ## 📑 Futureworks: 
 
 1. Transfer Learning: use VGG16, VGG19, or MobileNet as the base model for our classification tasks. These pre-trained models provide a strong foundation by leveraging their ability to extract robust features from images, enhancing the overall performance of our classifier.
