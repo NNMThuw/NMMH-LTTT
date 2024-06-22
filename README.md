@@ -7,10 +7,10 @@ This repository contains the code and data for a mini-project on facial expressi
 
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
-    |1| Vo Thi Khanh Linh | 21280070 |
-    |2| Le Quang Trung | 21280113 |
-    |3|||
-    |4|||
+    |1| Võ Thị Khánh Linh | 21280070 |
+    |2| Lê Quang Trung | 21280113 |
+    |3| Nguyễn Nhật Minh Thư | 21280112|
+    |4| Nguyễn Đặng Anh Thư | 21280111 |
 
 - The submission deadline is strict: **11:59 PM** on **June 22nd, 2024**. Commits pushed after this deadline will not be considered.
 
