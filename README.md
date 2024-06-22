@@ -52,12 +52,11 @@ Apart from the given questions, our group has made the following improvements:
 
 ## 📦 Observations about different models and feature engineering techniques:
 
-1. Model Performance on Different Data Representations:
--  Original Data and PCA Transformed Data: Random Forest emerged as the best performing model for both the original dataset and the PCA-transformed dataset. Its ensemble nature, which aggregates the predictions of multiple decision trees, contributed to its robust performance by effectively capturing the underlying patterns in these datasets.
-- HOG Features: Support Vector Classifier (SVC) outperformed other models when HOG features were used. The SVC's ability to handle high-dimensional data and complex decision boundaries through kernel functions allowed it to leverage the detailed and informative features extracted by the HOG algorithm, leading to superior classification results.
+Model Performance on Different Data Representations:
+1. Original Data and PCA Transformed Data: Random Forest emerged as the best performing model for both the original dataset and the PCA-transformed dataset. Its ensemble nature, which aggregates the predictions of multiple decision trees, contributed to its robust performance by effectively capturing the underlying patterns in these datasets.
+2. HOG Features: Support Vector Classifier (SVC) outperformed other models when HOG features were used. The SVC's ability to handle high-dimensional data and complex decision boundaries through kernel functions allowed it to leverage the detailed and informative features extracted by the HOG algorithm, leading to superior classification results.
 
 These observations underscore the importance of choosing the right model based on the specific characteristics of the feature representation. While Random Forest excelled with the original and PCA-transformed data, the SVC demonstrated its strength with the more sophisticated HOG features.
-2. 
 ## 📑 Futureworks: 
 
 1. Transfer Learning: use VGG16, VGG19, or MobileNet as the base model for our classification tasks. These pre-trained models provide a strong foundation by leveraging their ability to extract robust features from images, enhancing the overall performance of our classifier.
